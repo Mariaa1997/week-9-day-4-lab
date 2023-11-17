@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+
+}
+
+.card-container {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto auto;
+}
+.cards {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 16px;
+  margin: 16px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: darkcyan;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  position:relative;
+  top: -39px;
+  font-style: italic;
+  
+ 
+  
+  
+  
+}
